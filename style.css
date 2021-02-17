@@ -18,7 +18,7 @@ p {
   text-align: center;
 }
 
-h3 > a {
+p > a {
   color: #EF626C;
   font-weight: bold;
   text-align: center;
@@ -37,7 +37,7 @@ h4 {
   margin-inline-end: 0px;
 }
 
-h3 > a:hover {
+p > a:hover {
   background-color: #EF626C;
   color: #4062BB;
 }
@@ -45,7 +45,7 @@ h3 > a:hover {
 .btn {
   background-color: #6B72E1;
   color: white;
-  padding: 15px 20px;
+  padding: 2% 3%;
   border-radius: 4px;
 }
 
@@ -105,6 +105,9 @@ img {
   /* For a screen < 540px, this CSS will be read */
   .container {
     width: 300px;
+  }
+  p > a {
+    font-size: 0.5em;
   }
 }
 
